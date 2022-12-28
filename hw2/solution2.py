@@ -1,1 +1,1 @@
-print("HW2 solution")
+print("hw2")
