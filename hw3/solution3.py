@@ -5,26 +5,20 @@ print(d1)
 #Q2
 
 def list5 (list1) :
-   for items in list1:
-      if len(list1) > 5:
+    try:
           list1[5] = '@'
-      else:
-          raise Exception("your list has less than 6 items")
-
-   return list1
-
-list1 = ["car","fat","ugly","hard","dad","dad"]
-print(list5(list1))
+    except  IndexError:
+        return "your list has less than 6 items"
+    else:
+          return list1
+print(list5(["car","fat","ugly","hard","dad","dad"]))
 
 #Q3
 
 def list5 (list1) :
-   for items in list1:
-      if len(list1) > 5:
-          list1[5] = '@'
-      else:
-          assert list1 == "goodbye", "list should be at least 6 items"
-   return list1
+    assert len(list1) > 5,"goodbye,list should be at least 6 items"
+    list1[5] = '@'
+    return list1
 
 list1 = ["car","fat","ugly","hard","dad","back"]
 print(list5(list1))

@@ -112,5 +112,5 @@ for row in range(0,7):
         else:
             result_str=result_str+" "
     result_str=result_str+"\n"
-print(result_str);
+print(result_str)
 #part 5
