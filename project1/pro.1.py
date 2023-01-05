@@ -104,17 +104,13 @@ x = str(longest_word)
 y = count_lines(file1)
 print(x*y)
 #make a nested loop with x shape
-i = 0
-number_of_rows = 7
-for row in range(7):
-    for col in range(7):
-        if row == i or col == number_of_rows:
-            print("*",end = "")
-            i = i + 1
-            number_of_rows = number_of_rows - 1
-        elif row == col :\
-                 print("*",end = "")
+result_str="";
+for row in range(0,7):
+    for column in range(0,7):
+        if (((column == 1 or column == 5) and (row > 4 or row < 2)) or row == column and column > 0 and column < 6 or (column == 2 and row == 4) or (column == 4 and row == 2)):
+            result_str=result_str+"*"
         else:
-            print(end = " ")
-    print()
+            result_str=result_str+" "
+    result_str=result_str+"\n"
+print(result_str);
 #part 5
