@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recipes management</title>
+    <link rel="stylesheet" type="text/css" href="../static/style.css"/>
+</head>
+<body>
+    <center>
+        <!-- Emoji -->
+        <a href="/" style="font-size:50px">&#128029;</a>
+        <h1>The Recipes Archive</h1>
+        <!-- Recipe Form -->
+        <form action="/add" method="post" enctype="multipart/form-data">
+        <!-- Recipe Name -->
+        <label>Recipe name :</label><br>
+        <input type="text" name="recipe_name" required
+            placeholder="Choose a name for your recipe..."
+               style="
+                width: 250px;
+                height:70px;
+                border: 4px solid orange;
+                padding: 10px;
+                margin: 20px;
+                display: inline-block;
+                font-family: 'Arapey';
+                font-weight: 400;
+                font-size: 15px;">
+        <br>
+
+        <!-- Description -->
+        <label>Description :</label><br>
+        <textarea type="text"
+            name="description"
+            placeholder="write your general description of the recipe..."
+            required
+                  style="
+                  width: 500px;
+                  height:200px;
+                  border: 4px solid orange;
+                  padding: 10px;
+                  margin: 20px;
+                  display: inline-block;
+                  font-family: 'Arapey';
+                  font-weight: 400;
+                  font-size: 20px;">
+        </textarea></br>
+
+
+        <!-- Ingredients -->
+        <label>Ingredients :</label><br>
+        <textarea type="text" name="ingredients" required
+            placeholder="Write the ingredients in clear way..."
+                  style="
+                  width: 400px;
+                  height:200px;
+                  border: 4px solid orange;
+                  padding: 10px;
+                  margin: 20px;
+                  display: inline-block;
+                  font-family: 'Arapey';
+                  font-weight: 400;
+                  font-size: 20px;"
+        > </textarea></br>
+
+        <!-- Instructions -->
+        <label>Instructions :</label><br>
+        <textarea type="text" name="instructions" required
+            placeholder="Write the instructions in clear way..."
+                  style="
+                  width: 400px;
+                  height:200px;
+                  border: 4px solid orange;
+                  padding: 10px;
+                  margin: 20px;
+                  display: inline-block;
+                  font-family: 'Arapey';
+                  font-weight: 400;
+                  font-size: 20px;">
+        </textarea><br>
+
+        <!-- Publisher -->
+        <label>Publisher :</label><br>
+        <input type="text" name="publisher" placeholder="write your name..."
+            required
+                  style= "
+                  width: 250px;
+                  height:70px;
+                  border: 4px solid orange;
+                  padding: 10px;
+                  margin: 20px;
+                  display: inline-block;
+                  font-family: 'Arapey';
+                  font-weight: 400;
+                  font-size: 15px;"><br>
+
+         <label>Publish Date :</label></br>
+        <input type="date" name="publish_date"
+               placeholder="provide the date"
+                  required
+                   style="
+                  width: 250px;
+                  height:70px;
+                  border: 4px solid orange;
+                  padding: 10px;
+                  margin: 20px;
+                  display: inline-block;
+                  font-family: 'Arapey';
+                  font-weight: 400;
+                  font-size: 15px;"></br>
+
+   <dl>
+        <labe>Picture upload </labe>
+        <p>
+          <input type="file" name="filename" required>
+        </p>
+          </dl>
+
+        <button class="button"
+                style="  background-color: #ffaa02;
+                         border: none;
+                         color: white;
+                         padding: 5px 30px;
+                         text-align: center;
+                         text-decoration: none;
+                         display: inline-block;
+                         font-family: 'Arapey';
+                         font-weight: 400;
+                         font-size: 20px;
+                         margin-bottom: 50px;
+                         margin-top: 20px;}">ADD</button>
+        </form>
+    </center>
+
+</body>
+</html>

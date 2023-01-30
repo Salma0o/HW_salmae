@@ -1,0 +1,315 @@
+/* Import fonts from Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Arapey:400);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+
+/* Set the height of the html element to 100% */
+html {
+  height:100%;
+}
+/* Style the navigation bar */
+nav {
+  max-width: 960px;/* Set a maximum width */
+   /* Create a mask image for the background */
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+  margin: 0 auto;/* Center the navigation bar horizontally */
+  padding: 60px 0;/* Add top and bottom padding */
+}
+/* Style the unordered list within the navigation bar */
+nav ul {
+  text-align: center;/* Center the list items horizontally */
+  /* Create a gradient background */
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%,
+   rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+   /* Add a shadow effect */
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+/* Style each list item in the unordered list */
+nav ul li {
+  display: inline-block;/* Display list items inline */
+}
+/* Style the links within the list items */
+nav ul li a,/* Target links */
+nav ul li form  { /* Target forms */
+  padding: 18px;/* Add padding */
+  font-family: "Open Sans"; /* Set the font family */
+  text-transform:uppercase;/* Convert text to uppercase */
+  color: rgba(0, 35, 122, 0.5);/* Set the text color */
+  font-size: 18px;/* Set the font size */
+  text-decoration: none;/* Remove text decoration */
+  display: block;/* Display the links as blocks */
+}
+
+/* Style the links and forms on hover */
+nav ul li a:hover ,nav ul li form:hover{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);/* Change background color on hover */
+  color: rgba(0, 35, 122, 0.7);/* Change text color on hover */
+}
+
+/* Style the body */
+body{
+	background: #ffeac1;/* Set the background color */
+	-webkit-font-smoothing: antialiased;/* Smooth out font rendering */
+	min-width: 1200px;/* Set a minimum width */
+}
+
+/* Start of h1 styles */
+h1 {
+  /* Font size calculated based on viewport height */
+  font-size: calc(5px + 10vh);
+  /* Line height calculated based on viewport height */
+  line-height: calc(5px + 20vh);
+  /* Shadow effect on text */
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500,
+  0 0 20px #ffa500,0 0 40px #ffa500, 0 0 60px #ff0000,
+  0 0 10px #ff8d00, 0 0 98px #ff0000;
+  /* Text color */
+  color: #fff6a9;
+  /* Font family */
+  font-family: "Sacramento", cursive;
+  /* Text align center */
+  text-align: center;
+  /* Animation on text */
+  animation: blink 12s infinite;
+  /* Animation for webkit */
+  -webkit-animation: blink 12s infinite;
+}
+
+/* Keyframe animation for webkit */
+@-webkit-keyframes blink {
+  /* Blink effect during 20%, 24% and 55% */
+  20%, 24%, 55% {
+  /* Change text color to #111 */
+    color: #111;
+/* Remove shadow effect */
+    text-shadow: none;
+  }
+  /* Blink effect during other times */
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+  /* Shadow effect on text */
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+   0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00,
+   0 0 98px #ff0000;
+   /* Text color */
+    color: #fff6a9;
+  }
+}
+
+/* Keyframe animation */
+@keyframes blink {
+  /* Blink effect during 20%, 24% and 55% */
+  20%, 24%, 55% {
+  /* Change text color to #111 */
+    color: #111;
+  /* Remove shadow effect */
+    text-shadow: none;
+  }
+  /* Blink effect during other times */
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+  /* Shadow effect on text */
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+   0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00,
+   0 0 98px #ff0000;
+   /* Text color */
+    color: #fff6a9;
+  }
+}
+
+/* Start of  h2 style */
+h2 {
+  /* Font family */
+  font-family: 'Arapey';
+  /* Font weight */
+  font-weight: 400;
+  /* Display property */
+  display: inline;
+  /* Width */
+  width: 100px;
+  /* Height */
+  height: 160px;
+  /* Padding */
+  padding: 18px;
+}
+
+h {
+	margin-top: 40px;
+	margin-bottom: 100px;
+	text-align: center;
+	font-size: 66px;
+	color: #dd7802;
+	}
+
+/* Heading 2 styles */
+h2 {
+  margin-top: 100px; /* top margin */
+  margin-bottom: 200px; /* bottom margin */
+  text-align: center; /* text alignment */
+  font-size: 40px; /* font size */
+  color: #ffaa02; /* color */
+}
+
+/* Heading 3 and Heading 2 styles */
+h3, h2 {
+  margin-left: 50px; /* left margin */
+  margin-right: 50px; /* right margin */
+  font-family: 'Arapey'; /* font family */
+  font-weight: 400; /* font weight */
+}
+
+/* Heading 3 styles */
+h3 {
+  font-size: 25px; /* font size */
+}
+
+/* Paragraph styles */
+p {
+  margin-left: 70px; /* left margin */
+  margin-right: 300px; /* right margin */
+  font-size: 20px; /* font size */
+  font-family: 'Arapey'; /* font family */
+  font-weight: 400; /* font weight */
+}
+
+
+/* Text area and select styles */
+textarea, select {
+  width: 80%; /* width */
+  padding: 20px 20px; /* padding */
+  margin: 15px 0; /* margin */
+  display: inline-block; /* display */
+  border: 1px solid #ccc; /* border */
+  border-radius: 4px; /* border radius */
+  box-sizing: border-box; /* box sizing */
+}
+
+
+
+/* Link styles */
+a:link, a:visited {
+  padding: 14px 50px; /* padding */
+  text-decoration: none; /* text decoration */
+}
+
+
+/* Box sizing */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* Buttons container */
+.buttons {
+    margin-top: 90px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+
+/* Base button styles */
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+/* Hover state */
+.btn-hover:hover {
+    background-position: 100% 0;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+/* Remove outline on focus */
+.btn-hover:focus {
+    outline: none;
+}
+
+/* Color 1 */
+.btn-hover.color-1 {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+/* Color 2 */
+.btn-hover.color-2 {
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+
+
+/* Color 3 */
+.btn-hover.color-3 {
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+
+
+/* Color 4 */
+.btn-hover.color-4 {
+    background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+}
+
+
+/* Color 5 */
+.btn-hover.color-5 {
+    background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+}
+
+
+/* Color 6 */
+.btn-hover.color-6 {
+    background-image: linear-gradient(to right, #009245, #FCEE21, #00A8C5, #D9E021);
+    box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
+}
+
+
+/* Color 7*/
+.btn-hover.color-7 {
+    background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+
+
+/* Color 8 */
+.btn-hover.color-8 {
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+
+
+/* Color 9 */
+.btn-hover.color-9 {
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+/* Color 10 */
+.btn-hover.color-10 {
+        background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a , #FBB03B);
+    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+}
+
+/* Color 11 */
+.btn-hover.color-11 {
+       background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);
+       box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
+}

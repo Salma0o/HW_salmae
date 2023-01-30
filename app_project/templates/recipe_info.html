@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>My recipe</title>
+    <link rel="stylesheet" type="text/css" href="../static/style.css"/>
+
+</head>
+<body>
+        <a href="/"style="font-size:50px" >&#128029; </a>
+
+
+        <center>
+  <h2 >{{recipe_specific.recipe_name}} </h2></br></br>
+    <img src="{{url_for('display_image',filename=recipe_specific.filename)}}" style= width="200" height="300">
+            </center>
+
+        <h3 style="border-bottom:solid 1px #666;">Description</h3>
+        <P>{{recipe_specific.description}}</p></br></br>
+
+        <h3 style="border-bottom:solid 1px #666;">For this recipe you'll need:</h3>
+        <p><li style="margin-left: 70px;
+margin-right: 400px;
+	font-size: 20px;
+		font-family: 'Arapey';
+	font-weight: 400;">{{recipe_specific.ingredients}}</li></p></br></br>
+
+        <h3 style="border-bottom:solid 1px #666;">This is how you do it :</h3>
+        <p><li style="margin-left: 70px;
+margin-right: 400px;
+	font-size: 20px;
+		font-family: 'Arapey';
+	font-weight: 400;">{{recipe_specific.instructions}}</li></p></br></br>
+
+        <h3 style="border-bottom:solid 1px #666;">This recipe was written by :</h3>
+        <p>{{recipe_specific.publisher}}</p></br></br>
+
+        <h3 style="border-bottom:solid 1px #666;">Publish date :</h3>
+        <p>{{recipe_specific.publish_date}}</p></br></br>
+
+<a href="/delete/{{recipe_specific.id}}" type="button" class="btn-hover color-10">Delete</a>
+<a href="/alter_recipe/{{recipe_specific.id}}" type="button" class="btn-hover color-2">Update</a></br></br></br>
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
+
+
+<form method="post" action="/add_review" >
+    <div class="stars" >
+    <input class="star star-5" id="star-5" type="radio"  />
+    <label class="star star-5" for="star-5"></label>
+    <input class="star star-4" id="star-4" type="radio" />
+    <label class="star star-4" for="star-4"></label>
+    <input class="star star-3" id="star-3" type="radio" />
+    <label class="star star-3" for="star-3"></label>
+    <input class="star star-2" id="star-2" type="radio" />
+    <label class="star star-2" for="star-2"></label>
+    <input class="star star-1" id="star-1" type="radio" />
+    <label class="star star-1" for="star-1"></label>
+    <label style="
+    margin-left: 60px;
+    margin-right: 50px;
+    font-size: 25px;"
+    >Name:</label> <br>
+    <input type="text" name="name" required placeholder="write your name..." style= "
+                  width: 250px;
+                  height:70px;
+                  padding: 10px;
+                  margin: 20px;
+                  display: inline-block;
+                  font-family: 'Arapey';
+                  font-weight: 400;
+                  font-size: 15px;
+                  margin-left: 60px;
+                  margin-right: 50px;"><br><br>
+    <label style="
+    margin-left: 60px;
+    margin-right: 50px;
+    font-size: 25px; "
+    >Review :</label> <br><br>
+
+    <textarea type="text" name="review_text" required  style= "
+                  width: 400px;
+                  height:100px;
+                  padding: 10px;
+                  margin: 20px;
+                  display: inline-block;
+                  font-family: 'Arapey';
+                  font-weight: 400;
+                  font-size: 15px;
+                  margin-left: 60px;
+                  margin-right: 50px;"> </textarea>
+    <input type="hidden" name="recipe_id" value="{{recipe_specific.id}}"> <br><br>
+        <button type="submit"type="button" class="btn-hover color-7">ADD Review</button>
+
+</form>
+
+<ol>
+    <h2 >Reviews:</h2></br></br>
+    {%for review in reviews_specific%}
+    <p style="border-top:solid 1px #666; ">Reviewer name: </p>
+    <p >{{review.name}}</p></br>
+    <p>Review:</p>
+    <p style="border-bottom:solid 1px #666; ">{{review.review_text}}</p></br></br>
+
+    {%endfor%}
+
+
+</ol>
+
+</body>
+</html>

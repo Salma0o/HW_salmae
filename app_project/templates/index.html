@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home page</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style.css')}}"/>
+    <style>img {
+	margin: 0;
+	margin-right: -4px;
+	margin-left: -4px;
+	margin-bottom: 30px;
+	margin-top: 50px;
+
+
+
+	-webkit-clip-path: polygon(
+			50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%
+		);
+
+		clip-path: polygon(
+			50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%
+		);
+}
+li{ margin-left: 60px;
+margin-right: 50px;
+	font-size: 20px;
+		font-family: 'Arapey';
+	font-weight: 400;
+
+
+}
+</style>
+        <script src="main.js"></script>
+
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li>
+      <a href="/add_data">ADD RECIPE</a>
+    </li>
+    <li>
+<form action="/" method="POST" id = "searchForm">
+    <input type="text" id="searchbar" name="searchbar">
+    <input id="submit" name="submit" type="submit" value="search"><br>
+</form>
+</form>
+    </li>
+  </ul>
+</nav>
+
+<center>
+
+    <h1>The Honeycomb</h1>
+</center>
+</a>
+<center>
+<h2>Welcome to The Honeycomb a place where 🍯 lovers can share their delicious 🍯 recipes !!</h2>
+    <div>
+{% for recipe in recipes_data %}
+        <grid>
+        <a href="{{url_for('recipe_info',recipe_id=recipe.id)}} ">
+
+            <img src="{{ url_for('display_image',filename=recipe.filename)}}",width="300" height="300" class="container">
+        </a>
+            </grid>
+
+    {%endfor%}
+        </div>
+</center>
+
+</form>
+
+</body>
+</html>
