@@ -13,12 +13,6 @@ SQLite database and file uploads.
 manually check if added recipes appear in home page/if deleted recipes are removed including all the info
 /if reviews and rating are updated 
 ## `Usage`
-* Clone the repository
-* Install the required dependencies using pip install -r requirements.txt
-* Run the following command to initiate the database flask db init
-* Run the following command to perform migrations flask db migrate
-* Run the following command to upgrade the database flask db upgrade
-* Run the following command to start the application flask run
 * The application will be running at http://localhost:5000/
 
 ## `html files`
