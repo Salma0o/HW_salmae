@@ -19,7 +19,7 @@ app.config['UPLOAD_FOLDER'] = 'static/uploads/'
 app.config['MAX_CONTENT'] = 16 * 1024 * 1024
 
 # allowed file extensions for upload
-ALLOWED_EXTENSIONS = ['png', 'jpeg', 'jpg', 'gif']
+ALLOWED_EXTENSIONS = ['png', 'jpeg', 'jpg', 'gif','webp']
 
 
 # helper function to check if a file is allowed for upload
@@ -144,7 +144,8 @@ def review_management():
         db.session.add(review_row)
         # Commit the changes to the database
         db.session.commit()
-        return redirect("/")
+        return redirect(url_for('recipe_info',recipe_id=recipe_id))
+
 
 
 @app.route("/delete/<int:id>")
@@ -160,7 +161,7 @@ def erase(id):
     return redirect("/")
 
 
-@app.route("/alter_recipe/<int:id>",methods=["POST","GET"])
+@app.route("/alter_recipe/<int:id>",methods=["POST", "GET"])
 def alter_recipe(id):
     if request.method == "POST":
         data = Recipes.query.get(id)
@@ -186,7 +187,7 @@ def alter_recipe(id):
             data.publisher = publisher
         if request.form.get("publish_date"):
             data.publish_date = publish_date
-        if request.files.get("file_name"):
+        if request.files.get("filename"):
             data.filename = file_name
         db.session.commit()
         return redirect(url_for('recipe_info', recipe_id=id))
@@ -198,9 +199,13 @@ def alter_recipe(id):
 def index():
     if request.method == 'POST':
         search = request.form["searchbar"]
-        recipe_specific = Recipes.query.filter(Recipes.recipe_name.ilike(search)).all()[0]
-        reviews_specific = Reviews.query.filter(Reviews.recipe_id == recipe_specific.id)
+        try:
+            recipe_specific = Recipes.query.filter(Recipes.recipe_name.ilike(search)).all()[0]
+            reviews_specific = Reviews.query.filter(Reviews.recipe_id == recipe_specific.id)
+        except IndexError:
+            return redirect(url_for("index"))
     return render_template("recipe_info.html", recipe_specific=recipe_specific, reviews_specific=reviews_specific)
+
 
 
 if __name__ == "__main__":

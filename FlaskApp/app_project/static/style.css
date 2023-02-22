@@ -132,13 +132,6 @@ h2 {
   padding: 18px;
 }
 
-h {
-	margin-top: 40px;
-	margin-bottom: 100px;
-	text-align: center;
-	font-size: 66px;
-	color: #dd7802;
-	}
 
 /* Heading 2 styles */
 h2 {
@@ -170,7 +163,8 @@ p {
   font-family: 'Arapey'; /* font family */
   font-weight: 400; /* font weight */
 }
-
+strong{  margin-left: 70px; /* left margin */
+  margin-right: -70px; /* right margin */}
 
 /* Text area and select styles */
 textarea, select {
@@ -313,3 +307,24 @@ a:link, a:visited {
        background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);
        box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
 }
+
+
+
+.rating:not(:checked) > input{position:absolute;
+}
+.rating:not(:checked) > label{float:right;
+  width:1em;
+  overflow:hidden;
+  white-space:nowrap;
+  cursor:pointer;
+  font-size:30px;
+  color:#ccc;}
+.rating:not(:checked) > label:before{content: '★ ';}
+.rating > input:checked ~ label{color: #ffc700;}
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label{color: #deb217;}
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label{color: #c59b08;}

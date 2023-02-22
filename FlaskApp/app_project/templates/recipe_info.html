@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <title>My recipe</title>
     <link rel="stylesheet" type="text/css" href="../static/style.css"/>
@@ -14,47 +14,54 @@
     <img src="{{url_for('display_image',filename=recipe_specific.filename)}}" style= width="200" height="300">
             </center>
 
-        <h3 style="border-bottom:solid 1px #666;">Description</h3>
-        <P>{{recipe_specific.description}}</p></br></br>
+        <h3 style="border-bottom:solid 1px #666;" class="recipe_title">Description</h3>
+        <P >{{recipe_specific.description}}</p></br></br>
 
-        <h3 style="border-bottom:solid 1px #666;">For this recipe you'll need:</h3>
-        <p><li style="margin-left: 70px;
-margin-right: 400px;
-	font-size: 20px;
-		font-family: 'Arapey';
-	font-weight: 400;">{{recipe_specific.ingredients}}</li></p></br></br>
+<h3 style="border-bottom:solid 1px #666;">For this recipe you'll need:</h3>
+        <ol>
 
-        <h3 style="border-bottom:solid 1px #666;">This is how you do it :</h3>
-        <p><li style="margin-left: 70px;
-margin-right: 400px;
-	font-size: 20px;
-		font-family: 'Arapey';
-	font-weight: 400;">{{recipe_specific.instructions}}</li></p></br></br>
+            {% for ingredient in recipe_specific.ingredients.splitlines() %}
+                <li style="margin-left: 70px; margin-right: 400px; font-size: 20px; font-family: 'Arapey'; font-weight: 400;">{{ ingredient }}</li>
+            {% endfor %}
+        </ol></br></br>
+
+  <h3 style="border-bottom:solid 1px #666;">This is how you do it :</h3>
+    <ol>
+        {% for step in recipe_specific.instructions.splitlines() %}
+            <li style="margin-left: 70px; margin-right: 400px; font-size: 20px; font-family: 'Arapey'; font-weight: 400;">{{ step }}</li>
+        {% endfor %}
+    </ol></br></br>
 
         <h3 style="border-bottom:solid 1px #666;">This recipe was written by :</h3>
         <p>{{recipe_specific.publisher}}</p></br></br>
 
-        <h3 style="border-bottom:solid 1px #666;">Publish date :</h3>
+        <h3 style="border-bottom:solid 1px #666;" class="recipe_date">Publish date :</h3>
         <p>{{recipe_specific.publish_date}}</p></br></br>
 
 <a href="/delete/{{recipe_specific.id}}" type="button" class="btn-hover color-10">Delete</a>
 <a href="/alter_recipe/{{recipe_specific.id}}" type="button" class="btn-hover color-2">Update</a></br></br></br>
 
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
+
 
 
 <form method="post" action="/add_review" >
-    <div class="stars" >
-    <input class="star star-5" id="star-5" type="radio"  />
-    <label class="star star-5" for="star-5"></label>
-    <input class="star star-4" id="star-4" type="radio" />
-    <label class="star star-4" for="star-4"></label>
-    <input class="star star-3" id="star-3" type="radio" />
-    <label class="star star-3" for="star-3"></label>
-    <input class="star star-2" id="star-2" type="radio" />
-    <label class="star star-2" for="star-2"></label>
-    <input class="star star-1" id="star-1" type="radio" />
-    <label class="star star-1" for="star-1"></label>
+
+    <div class="rating" style=
+            "
+  width: 20%;
+  padding: -60px;">
+    <input type="radio" id="star5" name="rating" value="5" />
+    <label for="star5" title="text">5 stars</label>
+    <input type="radio" id="star4" name="rating" value="4" />
+    <label for="star4" title="text">4 stars</label>
+    <input type="radio" id="star3" name="rating" value="3" />
+    <label for="star3" title="text">3 stars</label>
+    <input type="radio" id="star2" name="rating" value="2" />
+    <label for="star2" title="text">2 stars</label>
+    <input type="radio" id="star1" name="rating" value="1" />
+    <label for="star1" title="text">1 star</label>
+    </div>
+    <br>
     <label style="
     margin-left: 60px;
     margin-right: 50px;
@@ -93,18 +100,21 @@ margin-right: 400px;
 
 </form>
 
-<ol>
-    <h2 >Reviews:</h2></br></br>
+<ul class="Reviews_names">
+    <h2 >Reviews:</h2><br>
     {%for review in reviews_specific%}
-    <p style="border-top:solid 1px #666; ">Reviewer name: </p>
-    <p >{{review.name}}</p></br>
-    <p>Review:</p>
-    <p style="border-bottom:solid 1px #666; ">{{review.review_text}}</p></br></br>
+ {% for rate in range (review.rating)%}
+    <strong ID="STARS">⭐</strong>
+        {%endfor%}
+
+    <br><p style="border-top:solid 1px #666; " class="NAME">Reviewer name: {{review.name}}</p><br>
+    <p style="border-bottom:solid 1px #666; " class="REVIEW">Review:  {{review.review_text}}</p></br>
 
     {%endfor%}
 
 
-</ol>
+</ul>
 
 </body>
 </html>
+

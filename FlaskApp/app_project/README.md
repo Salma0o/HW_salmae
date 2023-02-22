@@ -9,10 +9,21 @@ SQLite database and file uploads.
 * Add a review for a specific recipe.
 * alter a specific field in the recipe.
 
-#### _Check steps_
-manually check if added recipes appear in home page/if deleted recipes are removed including all the info
-/if reviews and rating are updated 
+## `Tests`
+* manually check if added recipes appear in home page
+* When deleting a recipe check if data is deleted from db
+* check if reviews and rating are appearing in db
+* check if recipe info appearing in db
+* run tests after each debug in order to check how the app is affected
+* ran the app and checked that it works as it supposed to
+* search for recipes that exists and don't exist 
 ## `Usage`
+* Clone the repository
+* Install the required dependencies using pip install -r requirements.txt
+* Run the following command to initiate the database flask db init
+* Run the following command to perform migrations flask db migrate
+* Run the following command to upgrade the database flask db upgrade
+* Run the following command to start the application flask run
 * The application will be running at http://localhost:5000/
 
 ## `html files`
