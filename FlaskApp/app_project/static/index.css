@@ -1,0 +1,203 @@
+/* Import fonts from Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Arapey:400);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+
+/* Set the height of the html element to 100% */
+html {
+  height:100%;
+}
+/* Style the navigation bar */
+nav {
+  max-width: 960px;/* Set a maximum width */
+   /* Create a mask image for the background */
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+  margin: 0 auto;/* Center the navigation bar horizontally */
+  padding: 60px 0;/* Add top and bottom padding */
+}
+/* Style the unordered list within the navigation bar */
+nav ul {
+  text-align: center;/* Center the list items horizontally */
+  /* Create a gradient background */
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%,
+   rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+   /* Add a shadow effect */
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+/* Style each list item in the unordered list */
+nav ul li {
+  display: inline-block;/* Display list items inline */
+}
+/* Style the links within the list items */
+nav ul li a,/* Target links */
+nav ul li form  { /* Target forms */
+  padding: 18px;/* Add padding */
+  font-family: "Open Sans"; /* Set the font family */
+  text-transform:uppercase;/* Convert text to uppercase */
+  color: rgba(0, 35, 122, 0.5);/* Set the text color */
+  font-size: 18px;/* Set the font size */
+  text-decoration: none;/* Remove text decoration */
+  display: block;/* Display the links as blocks */
+}
+
+/* Style the links and forms on hover */
+nav ul li a:hover ,nav ul li form:hover{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);/* Change background color on hover */
+  color: rgba(0, 35, 122, 0.7);/* Change text color on hover */
+}
+
+/* Style the body */
+body{
+	background: #ffeac1;/* Set the background color */
+	-webkit-font-smoothing: antialiased;/* Smooth out font rendering */
+	min-width: 1200px;/* Set a minimum width */
+}
+
+/* Start of h1 styles */
+h1 {
+  /* Font size calculated based on viewport height */
+  font-size: calc(5px + 10vh);
+  /* Line height calculated based on viewport height */
+  line-height: calc(5px + 20vh);
+  /* Shadow effect on text */
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500,
+  0 0 20px #ffa500,0 0 40px #ffa500, 0 0 60px #ff0000,
+  0 0 10px #ff8d00, 0 0 98px #ff0000;
+  /* Text color */
+  color: #fff6a9;
+  /* Font family */
+  font-family: "Sacramento", cursive;
+  /* Text align center */
+  text-align: center;
+  /* Animation on text */
+  animation: blink 12s infinite;
+  /* Animation for webkit */
+  -webkit-animation: blink 12s infinite;
+}
+/* Keyframe animation for webkit */
+@-webkit-keyframes blink {
+  /* Blink effect during 20%, 24% and 55% */
+  20%, 24%, 55% {
+  /* Change text color to #111 */
+    color: #111;
+/* Remove shadow effect */
+    text-shadow: none;
+  }
+  /* Blink effect during other times */
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+  /* Shadow effect on text */
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+   0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00,
+   0 0 98px #ff0000;
+   /* Text color */
+    color: #fff6a9;
+  }
+}
+4% and 55% */
+  20%, 24%, 55% {
+  /* Change text color to #111 */
+    color: #111;
+  /* Remove shadow effect */
+    text-shadow: none;
+  }
+  /* Blink effect during other times */
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+  /* Shadow effect on text */
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+   0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00,
+   0 0 98px #ff0000;
+   /* Text color */
+    color: #fff6a9;
+  }
+}
+/* Start of  h2 style */
+h2 {
+  /* Font family */
+  font-family: 'Arapey';
+  /* Font weight */
+  font-weight: 400;
+  /* Display property */
+  display: inline;
+  /* Width */
+  width: 100px;
+  /* Height */
+  height: 160px;
+  /* Padding */
+  padding: 18px;
+}
+           /* Reset default styles */
+/* Define a common style for the entire page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Container for hexagonal elements */
+.hexagon-container {
+  display: flex; /* Display elements as a flex container */
+  flex-wrap: wrap; /* Wrap elements onto multiple lines if necessary */
+  justify-content: center; /* Center elements horizontally */
+}
+
+/* Hexagonal shape */
+.hexagon-container .hexagon {
+  margin: 20px; /* Add margin between each hexagon */
+  position: relative;
+  width: 250px;
+  height: 300px;
+  float: left;
+}
+
+/* Hexagonal shape */
+.hexagon-container .hexagon .hexagon-shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+  transition: 0.5s;
+}
+
+/* Move hexagonal shape on hover */
+.hexagon-container .hexagon:hover .hexagon-shape {
+  transform: translateY(-30px);
+}
+
+/* Content of hexagonal shape */
+.hexagon-container .hexagon .hexagon-shape .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(45deg, #03f4cc, rgba(3,255,244,0.5));
+  opacity: 0;
+  transition: 0.5s;
+}
+
+/* Show content of hexagonal shape on hover */
+.hexagon-container .hexagon:hover .hexagon-shape .content {
+  opacity: 1;
+}
+.parent-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 0 100px; /* Add padding of 100px to both left and right */
+}
+
+.hexagon-container {
+flex: 1;
+max-width: 40%; /* Set the maximum width to 1/3 of the parent container */
+}

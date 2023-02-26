@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home page</title>
+    <link rel="stylesheet" type="text/css" href="../static/index.css"/>
+
+    <style>
+
+</style>
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li>
+      <a href="/add_data" class="ADD">ADD RECIPE</a>
+    </li>
+    <li>
+<form action="/" method="POST" id = "searchForm">
+    <input type="text" id="searchbar" name="searchbar">
+    <input id="submit" name="submit" type="submit" value="search"><br>
+</form>
+</form>
+    </li>
+  </ul>
+</nav>
+
+<center>
+
+    <h1>The Honeycomb</h1>
+</center>
+</a>
+<h2 style="
+  font-family: 'Arapey';
+  font-weight: 700;
+  display: inline;
+  padding: 18px;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  text-align: center;
+  font-size: 30px;
+  color: #ffaa02;">Welcome to The Honeycomb a place where 🍯 lovers can share their delicious 🍯 recipes !!</h2><br><br><br>
+<center>
+    <div class="parent-container">
+        {% for recipe in recipes_data%}
+<div class="hexagon-container recipe-container">
+        <div class="hexagon">
+            <div class="hexagon-shape">
+            <img style= width="200" height="350" src="{{ url_for('display_image', filename=recipe.filename)}}">
+                <div class="content">
+                    <div>
+                        <a style="text-decoration:none" href="{{url_for('recipe_info', recipe_id=recipe.id)}}" class="RecipeName">
+                        <h2 class="recipeName"> {{recipe.recipe_name}} </h2>
+                            <p class="recipePublisher">{{recipe.publisher}}</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                {%endfor%}
+
+        </div>
+</center>
+</form>
+
+</body>
+</html>
