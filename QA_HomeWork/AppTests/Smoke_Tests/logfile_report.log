@@ -1,0 +1,39 @@
+2023-03-14 23:15:28,025 :INFO: test_home_page_title :Successfully navigated to home page
+2023-03-14 23:15:37,677 :INFO: test_home_page_title :Successfully navigated to home page
+2023-03-14 23:15:37,677 :INFO: test_home_page_title :Successfully navigated to home page
+2023-03-14 23:16:53,263 :INFO: test_navigation_to_home_from_add :Navigating to home page from add...
+2023-03-14 23:16:53,804 :INFO: test_navigation_to_home_from_add :Successfully navigated to recipe add
+2023-03-14 23:16:57,231 :INFO: test_navigation_to_home_from_add :Successfully navigated to home page
+2023-03-14 23:17:05,962 :INFO: test_navigation_to_home_from_add :Navigating to home page from add...
+2023-03-14 23:17:05,962 :INFO: test_navigation_to_home_from_add :Navigating to home page from add...
+2023-03-14 23:17:06,401 :INFO: test_navigation_to_home_from_add :Successfully navigated to recipe add
+2023-03-14 23:17:06,401 :INFO: test_navigation_to_home_from_add :Successfully navigated to recipe add
+2023-03-14 23:17:09,866 :INFO: test_navigation_to_home_from_add :Successfully navigated to home page
+2023-03-14 23:17:09,866 :INFO: test_navigation_to_home_from_add :Successfully navigated to home page
+2023-03-14 23:18:58,653 :INFO: test_navigate_to_home_page_from_recipe_info :Navigating to the home page
+2023-03-14 23:19:05,109 :INFO: test_navigate_to_home_page_from_recipe_info :Successfully navigated to recipe alter
+2023-03-14 23:19:08,434 :INFO: test_navigate_to_home_page_from_recipe_info :Successfully navigated to home page
+2023-03-14 23:19:17,174 :INFO: test_navigate_to_home_page_from_recipe_info :Navigating to the home page
+2023-03-14 23:19:17,174 :INFO: test_navigate_to_home_page_from_recipe_info :Navigating to the home page
+2023-03-14 23:19:23,990 :INFO: test_navigate_to_home_page_from_recipe_info :Successfully navigated to recipe alter
+2023-03-14 23:19:23,990 :INFO: test_navigate_to_home_page_from_recipe_info :Successfully navigated to recipe alter
+2023-03-14 23:19:27,299 :INFO: test_navigate_to_home_page_from_recipe_info :Successfully navigated to home page
+2023-03-14 23:19:27,299 :INFO: test_navigate_to_home_page_from_recipe_info :Successfully navigated to home page
+2023-03-14 23:22:35,306 :INFO: test_review_submission :Number of reviews before submission: 0
+2023-03-14 23:22:49,453 :INFO: test_review_submission :Number of reviews after submission: 0
+2023-03-14 23:22:49,453 :INFO: test_review_submission :Review was not added!
+2023-03-14 23:23:03,200 :INFO: test_review_submission :Number of reviews before submission: 0
+2023-03-14 23:23:03,200 :INFO: test_review_submission :Number of reviews before submission: 0
+2023-03-14 23:23:17,358 :INFO: test_review_submission :Number of reviews after submission: 0
+2023-03-14 23:23:17,358 :INFO: test_review_submission :Number of reviews after submission: 0
+2023-03-14 23:23:17,358 :INFO: test_review_submission :Review was not added!
+2023-03-14 23:23:17,358 :INFO: test_review_submission :Review was not added!
+2023-03-14 23:26:30,449 :INFO: test_navigate_to_recipe_info :Navigate to recipe info
+2023-03-14 23:26:30,692 :INFO: test_navigate_to_recipe_info :Successfully navigated to recipe info
+2023-03-14 23:26:33,998 :INFO: test_navigate_to_recipe_info :Successfully navigated to home page
+2023-03-14 23:26:42,605 :INFO: test_navigate_to_recipe_info :Navigate to recipe info
+2023-03-14 23:26:42,605 :INFO: test_navigate_to_recipe_info :Navigate to recipe info
+2023-03-14 23:26:42,847 :INFO: test_navigate_to_recipe_info :Successfully navigated to recipe info
+2023-03-14 23:26:42,847 :INFO: test_navigate_to_recipe_info :Successfully navigated to recipe info
+2023-03-14 23:26:46,145 :INFO: test_navigate_to_recipe_info :Successfully navigated to home page
+2023-03-14 23:26:46,145 :INFO: test_navigate_to_recipe_info :Successfully navigated to home page
