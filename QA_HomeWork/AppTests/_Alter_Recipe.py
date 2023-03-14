@@ -9,9 +9,9 @@ driver = webdriver.Chrome(service=service_obj, options=chrome_options)
 driver.maximize_window()
 alter_name = "apple pie"
 alter_date = "1000"
-driver.get("http://127.0.0.1:5000/alter_recipe/1")
-driver.find_element(By.NAME,"recipe_name").send_keys(alter_name)
-driver.find_element(By.NAME,"publish_date").send_keys(alter_date)
+driver.get("http://127.0.0.1:5000/alter_recipe/4")
+driver.find_element(By.CLASS_NAME,"recipe_name").send_keys(alter_name)
+driver.find_element(By.CLASS_NAME,"publish_date").send_keys(alter_date)
 driver.find_element(By.XPATH,"//button[normalize-space()='Update']").click()
 after_name = driver.find_element(By.CLASS_NAME,"recipe_title").text
 after_date = driver.find_element(By.CLASS_NAME,"recipe_date").text

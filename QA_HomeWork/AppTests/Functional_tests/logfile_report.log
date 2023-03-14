@@ -1,0 +1,218 @@
+2023-03-14 12:32:03,882 :INFO: test_add_recipe :Test case: add recipe
+2023-03-14 12:33:12,551 :INFO: test_add_recipe :Test case: add recipe
+2023-03-14 12:33:12,551 :INFO: test_add_recipe :Test case: add recipe
+2023-03-14 12:44:50,200 :INFO: test_add_recipe :Test case: add recipe
+2023-03-14 12:45:16,833 :INFO: test_add_recipe :Test case: add recipe
+2023-03-14 12:45:16,833 :INFO: test_add_recipe :Test case: add recipe
+2023-03-14 12:48:54,271 :INFO: test_add_recipe :Test case: add recipe
+2023-03-14 12:50:17,776 :INFO: test_add_recipe :Test case: add recipe
+2023-03-14 12:50:17,776 :INFO: test_add_recipe :Test case: add recipe
+2023-03-14 20:13:13,608 :INFO: test_add_recipe :Test case: add recipe
+2023-03-14 20:13:30,716 :INFO: test_add_recipe :Test case: add recipe
+2023-03-14 20:13:30,716 :INFO: test_add_recipe :Test case: add recipe
+2023-03-14 20:13:43,300 :INFO: test_add_recipe :Test passed: add recipe - recipe added successfully
+2023-03-14 20:13:43,300 :INFO: test_add_recipe :Test passed: add recipe - recipe added successfully
+2023-03-14 20:16:34,596 :INFO: test_add_recipe :Test case: add recipe
+2023-03-14 20:16:52,237 :INFO: test_add_recipe :Test case: add recipe
+2023-03-14 20:16:52,237 :INFO: test_add_recipe :Test case: add recipe
+2023-03-14 20:17:30,333 :INFO: test_add_recipe :Test case: add recipe
+2023-03-14 20:17:52,439 :INFO: test_add_recipe :Test case: add recipe
+2023-03-14 20:17:52,439 :INFO: test_add_recipe :Test case: add recipe
+2023-03-14 20:18:38,062 :INFO: test_add_recipe :Test case: add recipe
+2023-03-14 20:19:00,345 :INFO: test_add_recipe :Test case: add recipe
+2023-03-14 20:19:00,345 :INFO: test_add_recipe :Test case: add recipe
+2023-03-14 20:32:05,186 :INFO: test_add_stars :Navigating to the website
+2023-03-14 20:32:05,587 :INFO: test_add_stars :Clicking on the recipe name
+2023-03-14 20:32:05,870 :INFO: test_add_stars :Clicking on star 1
+2023-03-14 20:32:06,070 :INFO: test_add_stars :Entering name for star 1
+2023-03-14 20:32:06,166 :INFO: test_add_stars :Entering review text for star 1
+2023-03-14 20:32:06,263 :INFO: test_add_stars :Submitting review for star 1
+2023-03-14 20:32:07,445 :INFO: test_add_stars :Clicking on star 2
+2023-03-14 20:32:07,506 :INFO: test_add_stars :Entering name for star 2
+2023-03-14 20:32:07,598 :INFO: test_add_stars :Entering review text for star 2
+2023-03-14 20:32:07,689 :INFO: test_add_stars :Submitting review for star 2
+2023-03-14 20:32:08,855 :INFO: test_add_stars :Clicking on star 3
+2023-03-14 20:32:08,919 :INFO: test_add_stars :Entering name for star 3
+2023-03-14 20:32:09,001 :INFO: test_add_stars :Entering review text for star 3
+2023-03-14 20:32:09,086 :INFO: test_add_stars :Submitting review for star 3
+2023-03-14 20:32:10,241 :INFO: test_add_stars :Clicking on star 4
+2023-03-14 20:32:10,307 :INFO: test_add_stars :Entering name for star 4
+2023-03-14 20:32:10,394 :INFO: test_add_stars :Entering review text for star 4
+2023-03-14 20:32:10,486 :INFO: test_add_stars :Submitting review for star 4
+2023-03-14 20:32:11,697 :INFO: test_add_stars :Clicking on star 5
+2023-03-14 20:32:11,763 :INFO: test_add_stars :Entering name for star 5
+2023-03-14 20:32:11,857 :INFO: test_add_stars :Entering review text for star 5
+2023-03-14 20:32:11,951 :INFO: test_add_stars :Submitting review for star 5
+2023-03-14 20:32:13,168 :INFO: test_add_stars :Checking the number of stars after adding new ones
+2023-03-14 20:32:13,191 :INFO: test_add_stars :Stars added successfully
+2023-03-14 20:32:21,272 :INFO: test_add_stars :Navigating to the website
+2023-03-14 20:32:21,272 :INFO: test_add_stars :Navigating to the website
+2023-03-14 20:32:21,918 :INFO: test_add_stars :Clicking on the recipe name
+2023-03-14 20:32:21,918 :INFO: test_add_stars :Clicking on the recipe name
+2023-03-14 20:32:22,247 :INFO: test_add_stars :Clicking on star 1
+2023-03-14 20:32:22,247 :INFO: test_add_stars :Clicking on star 1
+2023-03-14 20:32:22,341 :INFO: test_add_stars :Entering name for star 1
+2023-03-14 20:32:22,341 :INFO: test_add_stars :Entering name for star 1
+2023-03-14 20:32:22,664 :INFO: test_add_stars :Entering review text for star 1
+2023-03-14 20:32:22,664 :INFO: test_add_stars :Entering review text for star 1
+2023-03-14 20:32:22,839 :INFO: test_add_stars :Submitting review for star 1
+2023-03-14 20:32:22,839 :INFO: test_add_stars :Submitting review for star 1
+2023-03-14 20:32:24,119 :INFO: test_add_stars :Clicking on star 2
+2023-03-14 20:32:24,119 :INFO: test_add_stars :Clicking on star 2
+2023-03-14 20:32:24,177 :INFO: test_add_stars :Entering name for star 2
+2023-03-14 20:32:24,177 :INFO: test_add_stars :Entering name for star 2
+2023-03-14 20:32:24,272 :INFO: test_add_stars :Entering review text for star 2
+2023-03-14 20:32:24,272 :INFO: test_add_stars :Entering review text for star 2
+2023-03-14 20:32:24,367 :INFO: test_add_stars :Submitting review for star 2
+2023-03-14 20:32:24,367 :INFO: test_add_stars :Submitting review for star 2
+2023-03-14 20:32:25,519 :INFO: test_add_stars :Clicking on star 3
+2023-03-14 20:32:25,519 :INFO: test_add_stars :Clicking on star 3
+2023-03-14 20:32:25,579 :INFO: test_add_stars :Entering name for star 3
+2023-03-14 20:32:25,579 :INFO: test_add_stars :Entering name for star 3
+2023-03-14 20:32:25,675 :INFO: test_add_stars :Entering review text for star 3
+2023-03-14 20:32:25,675 :INFO: test_add_stars :Entering review text for star 3
+2023-03-14 20:32:25,786 :INFO: test_add_stars :Submitting review for star 3
+2023-03-14 20:32:25,786 :INFO: test_add_stars :Submitting review for star 3
+2023-03-14 20:32:26,933 :INFO: test_add_stars :Clicking on star 4
+2023-03-14 20:32:26,933 :INFO: test_add_stars :Clicking on star 4
+2023-03-14 20:32:26,992 :INFO: test_add_stars :Entering name for star 4
+2023-03-14 20:32:26,992 :INFO: test_add_stars :Entering name for star 4
+2023-03-14 20:32:27,092 :INFO: test_add_stars :Entering review text for star 4
+2023-03-14 20:32:27,092 :INFO: test_add_stars :Entering review text for star 4
+2023-03-14 20:32:27,189 :INFO: test_add_stars :Submitting review for star 4
+2023-03-14 20:32:27,189 :INFO: test_add_stars :Submitting review for star 4
+2023-03-14 20:32:28,351 :INFO: test_add_stars :Clicking on star 5
+2023-03-14 20:32:28,351 :INFO: test_add_stars :Clicking on star 5
+2023-03-14 20:32:28,412 :INFO: test_add_stars :Entering name for star 5
+2023-03-14 20:32:28,412 :INFO: test_add_stars :Entering name for star 5
+2023-03-14 20:32:28,544 :INFO: test_add_stars :Entering review text for star 5
+2023-03-14 20:32:28,544 :INFO: test_add_stars :Entering review text for star 5
+2023-03-14 20:32:28,692 :INFO: test_add_stars :Submitting review for star 5
+2023-03-14 20:32:28,692 :INFO: test_add_stars :Submitting review for star 5
+2023-03-14 20:32:29,882 :INFO: test_add_stars :Checking the number of stars after adding new ones
+2023-03-14 20:32:29,882 :INFO: test_add_stars :Checking the number of stars after adding new ones
+2023-03-14 20:32:29,907 :INFO: test_add_stars :Stars added successfully
+2023-03-14 20:32:29,907 :INFO: test_add_stars :Stars added successfully
+2023-03-14 20:35:17,968 :INFO: test_add_stars :Navigating to the website
+2023-03-14 20:35:18,742 :INFO: test_add_stars :Clicking on the recipe name
+2023-03-14 20:35:19,524 :INFO: test_add_stars :Clicking on star 1
+2023-03-14 20:35:19,572 :INFO: test_add_stars :Entering name for star 1
+2023-03-14 20:35:19,654 :INFO: test_add_stars :Entering review text for star 1
+2023-03-14 20:35:19,755 :INFO: test_add_stars :Submitting review for star 1
+2023-03-14 20:35:21,291 :INFO: test_add_stars :Clicking on star 2
+2023-03-14 20:35:21,359 :INFO: test_add_stars :Entering name for star 2
+2023-03-14 20:35:21,446 :INFO: test_add_stars :Entering review text for star 2
+2023-03-14 20:35:21,550 :INFO: test_add_stars :Submitting review for star 2
+2023-03-14 20:35:22,770 :INFO: test_add_stars :Clicking on star 3
+2023-03-14 20:35:22,837 :INFO: test_add_stars :Entering name for star 3
+2023-03-14 20:35:22,928 :INFO: test_add_stars :Entering review text for star 3
+2023-03-14 20:35:23,029 :INFO: test_add_stars :Submitting review for star 3
+2023-03-14 20:35:24,194 :INFO: test_add_stars :Clicking on star 4
+2023-03-14 20:35:24,263 :INFO: test_add_stars :Entering name for star 4
+2023-03-14 20:35:24,340 :INFO: test_add_stars :Entering review text for star 4
+2023-03-14 20:35:24,426 :INFO: test_add_stars :Submitting review for star 4
+2023-03-14 20:35:25,650 :INFO: test_add_stars :Clicking on star 5
+2023-03-14 20:35:25,725 :INFO: test_add_stars :Entering name for star 5
+2023-03-14 20:35:25,810 :INFO: test_add_stars :Entering review text for star 5
+2023-03-14 20:35:25,907 :INFO: test_add_stars :Submitting review for star 5
+2023-03-14 20:35:27,126 :INFO: test_add_stars :Checking the number of stars after adding new ones
+2023-03-14 20:35:27,155 :INFO: test_add_stars :Stars added successfully
+2023-03-14 20:35:35,261 :INFO: test_add_stars :Navigating to the website
+2023-03-14 20:35:35,261 :INFO: test_add_stars :Navigating to the website
+2023-03-14 20:35:35,889 :INFO: test_add_stars :Clicking on the recipe name
+2023-03-14 20:35:35,889 :INFO: test_add_stars :Clicking on the recipe name
+2023-03-14 20:35:36,144 :INFO: test_add_stars :Clicking on star 1
+2023-03-14 20:35:36,144 :INFO: test_add_stars :Clicking on star 1
+2023-03-14 20:35:36,205 :INFO: test_add_stars :Entering name for star 1
+2023-03-14 20:35:36,205 :INFO: test_add_stars :Entering name for star 1
+2023-03-14 20:35:36,300 :INFO: test_add_stars :Entering review text for star 1
+2023-03-14 20:35:36,300 :INFO: test_add_stars :Entering review text for star 1
+2023-03-14 20:35:36,430 :INFO: test_add_stars :Submitting review for star 1
+2023-03-14 20:35:36,430 :INFO: test_add_stars :Submitting review for star 1
+2023-03-14 20:35:37,617 :INFO: test_add_stars :Clicking on star 2
+2023-03-14 20:35:37,617 :INFO: test_add_stars :Clicking on star 2
+2023-03-14 20:35:37,679 :INFO: test_add_stars :Entering name for star 2
+2023-03-14 20:35:37,679 :INFO: test_add_stars :Entering name for star 2
+2023-03-14 20:35:37,782 :INFO: test_add_stars :Entering review text for star 2
+2023-03-14 20:35:37,782 :INFO: test_add_stars :Entering review text for star 2
+2023-03-14 20:35:37,882 :INFO: test_add_stars :Submitting review for star 2
+2023-03-14 20:35:37,882 :INFO: test_add_stars :Submitting review for star 2
+2023-03-14 20:35:39,033 :INFO: test_add_stars :Clicking on star 3
+2023-03-14 20:35:39,033 :INFO: test_add_stars :Clicking on star 3
+2023-03-14 20:35:39,091 :INFO: test_add_stars :Entering name for star 3
+2023-03-14 20:35:39,091 :INFO: test_add_stars :Entering name for star 3
+2023-03-14 20:35:39,226 :INFO: test_add_stars :Entering review text for star 3
+2023-03-14 20:35:39,226 :INFO: test_add_stars :Entering review text for star 3
+2023-03-14 20:35:39,355 :INFO: test_add_stars :Submitting review for star 3
+2023-03-14 20:35:39,355 :INFO: test_add_stars :Submitting review for star 3
+2023-03-14 20:35:40,527 :INFO: test_add_stars :Clicking on star 4
+2023-03-14 20:35:40,527 :INFO: test_add_stars :Clicking on star 4
+2023-03-14 20:35:40,597 :INFO: test_add_stars :Entering name for star 4
+2023-03-14 20:35:40,597 :INFO: test_add_stars :Entering name for star 4
+2023-03-14 20:35:40,681 :INFO: test_add_stars :Entering review text for star 4
+2023-03-14 20:35:40,681 :INFO: test_add_stars :Entering review text for star 4
+2023-03-14 20:35:40,782 :INFO: test_add_stars :Submitting review for star 4
+2023-03-14 20:35:40,782 :INFO: test_add_stars :Submitting review for star 4
+2023-03-14 20:35:41,944 :INFO: test_add_stars :Clicking on star 5
+2023-03-14 20:35:41,944 :INFO: test_add_stars :Clicking on star 5
+2023-03-14 20:35:42,002 :INFO: test_add_stars :Entering name for star 5
+2023-03-14 20:35:42,002 :INFO: test_add_stars :Entering name for star 5
+2023-03-14 20:35:42,100 :INFO: test_add_stars :Entering review text for star 5
+2023-03-14 20:35:42,100 :INFO: test_add_stars :Entering review text for star 5
+2023-03-14 20:35:42,199 :INFO: test_add_stars :Submitting review for star 5
+2023-03-14 20:35:42,199 :INFO: test_add_stars :Submitting review for star 5
+2023-03-14 20:35:43,373 :INFO: test_add_stars :Checking the number of stars after adding new ones
+2023-03-14 20:35:43,373 :INFO: test_add_stars :Checking the number of stars after adding new ones
+2023-03-14 20:35:43,404 :INFO: test_add_stars :Stars added successfully
+2023-03-14 20:35:43,404 :INFO: test_add_stars :Stars added successfully
+2023-03-14 20:36:35,239 :INFO: test_add_review :Test case: Add review
+2023-03-14 20:36:36,537 :INFO: test_add_review :Number of reviews before adding a new review: 141
+2023-03-14 20:36:49,046 :INFO: test_add_review :Number of reviews after adding a new review: 142
+2023-03-14 20:36:49,046 :INFO: test_add_review :New review added successfully
+2023-03-14 20:36:57,137 :INFO: test_add_review :Test case: Add review
+2023-03-14 20:36:57,137 :INFO: test_add_review :Test case: Add review
+2023-03-14 20:36:58,038 :INFO: test_add_review :Number of reviews before adding a new review: 142
+2023-03-14 20:36:58,038 :INFO: test_add_review :Number of reviews before adding a new review: 142
+2023-03-14 20:37:10,542 :INFO: test_add_review :Number of reviews after adding a new review: 143
+2023-03-14 20:37:10,542 :INFO: test_add_review :Number of reviews after adding a new review: 143
+2023-03-14 20:37:10,542 :INFO: test_add_review :New review added successfully
+2023-03-14 20:37:10,542 :INFO: test_add_review :New review added successfully
+2023-03-14 20:39:21,608 :INFO: test_alter_recipe_name :Accessing the website and updating the recipe name and publish date...
+2023-03-14 20:39:31,260 :INFO: test_alter_recipe_name :Accessing the website and updating the recipe name and publish date...
+2023-03-14 20:39:31,260 :INFO: test_alter_recipe_name :Accessing the website and updating the recipe name and publish date...
+2023-03-14 20:51:02,333 :INFO: test_alter_recipe_name :Accessing the website and updating the recipe name and publish date...
+2023-03-14 20:51:12,405 :INFO: test_alter_recipe_name :Accessing the website and updating the recipe name and publish date...
+2023-03-14 20:51:12,405 :INFO: test_alter_recipe_name :Accessing the website and updating the recipe name and publish date...
+2023-03-14 20:52:29,362 :INFO: test_alter_recipe_name :Accessing the website and updating the recipe name and publish date...
+2023-03-14 20:52:39,459 :INFO: test_alter_recipe_name :Accessing the website and updating the recipe name and publish date...
+2023-03-14 20:52:39,459 :INFO: test_alter_recipe_name :Accessing the website and updating the recipe name and publish date...
+2023-03-14 20:53:24,587 :INFO: test_alter_recipe_name :Accessing the website and updating the recipe name and publish date...
+2023-03-14 20:53:28,412 :INFO: test_alter_recipe_name :Getting the updated recipe name...
+2023-03-14 20:53:28,461 :INFO: test_alter_recipe_name :Getting the updated publish date...
+2023-03-14 20:53:28,485 :INFO: test_alter_recipe_name :Asserting that the recipe name has been updated...
+2023-03-14 20:53:33,222 :INFO: test_alter_recipe_name :Accessing the website and updating the recipe name and publish date...
+2023-03-14 20:53:33,222 :INFO: test_alter_recipe_name :Accessing the website and updating the recipe name and publish date...
+2023-03-14 20:53:37,145 :INFO: test_alter_recipe_name :Getting the updated recipe name...
+2023-03-14 20:53:37,145 :INFO: test_alter_recipe_name :Getting the updated recipe name...
+2023-03-14 20:53:37,185 :INFO: test_alter_recipe_name :Getting the updated publish date...
+2023-03-14 20:53:37,185 :INFO: test_alter_recipe_name :Getting the updated publish date...
+2023-03-14 20:53:37,210 :INFO: test_alter_recipe_name :Asserting that the recipe name has been updated...
+2023-03-14 20:53:37,210 :INFO: test_alter_recipe_name :Asserting that the recipe name has been updated...
+2023-03-14 21:21:08,929 :INFO: test_homepage_to_recipe_info :Test case: homepage to recipe info
+2023-03-14 21:21:20,672 :INFO: test_homepage_to_recipe_info :Test passed: homepage to recipe info - image successfully altered
+2023-03-14 21:21:29,954 :INFO: test_homepage_to_recipe_info :Test case: homepage to recipe info
+2023-03-14 21:21:29,954 :INFO: test_homepage_to_recipe_info :Test case: homepage to recipe info
+2023-03-14 21:21:41,700 :INFO: test_homepage_to_recipe_info :Test passed: homepage to recipe info - image successfully altered
+2023-03-14 21:21:41,700 :INFO: test_homepage_to_recipe_info :Test passed: homepage to recipe info - image successfully altered
+2023-03-14 21:31:53,010 :INFO: test_add_recipe :Test case: add recipe
+2023-03-14 21:32:05,760 :INFO: test_add_recipe :Test passed: add recipe - recipe added successfully
+2023-03-14 21:32:15,268 :INFO: test_add_recipe :Test case: add recipe
+2023-03-14 21:32:15,268 :INFO: test_add_recipe :Test case: add recipe
+2023-03-14 21:32:28,168 :INFO: test_add_recipe :Test passed: add recipe - recipe added successfully
+2023-03-14 21:32:28,168 :INFO: test_add_recipe :Test passed: add recipe - recipe added successfully
+2023-03-14 21:37:42,356 :INFO: test_add_recipe :Test case: add recipe
+2023-03-14 21:37:55,041 :INFO: test_add_recipe :Test passed: add recipe - recipe added successfully
+2023-03-14 21:38:04,228 :INFO: test_add_recipe :Test case: add recipe
+2023-03-14 21:38:04,228 :INFO: test_add_recipe :Test case: add recipe
+2023-03-14 21:38:17,010 :INFO: test_add_recipe :Test passed: add recipe - recipe added successfully
+2023-03-14 21:38:17,010 :INFO: test_add_recipe :Test passed: add recipe - recipe added successfully

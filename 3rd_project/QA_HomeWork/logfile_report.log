@@ -1,0 +1,20 @@
+2023-03-14 23:57:13,638 :INFO: test_recipe_info_fields :Screenshot of recipe info page taken.
+2023-03-14 23:57:13,638 :INFO: test_recipe_info_fields :Description field successfully displayed.
+2023-03-14 23:57:13,639 :INFO: test_recipe_info_fields :Ingredients field successfully displayed.
+2023-03-14 23:57:13,639 :INFO: test_recipe_info_fields :Instructions field successfully displayed.
+2023-03-14 23:57:13,639 :INFO: test_recipe_info_fields :Publisher field successfully displayed.
+2023-03-14 23:57:13,639 :INFO: test_recipe_info_fields :Date field successfully displayed.
+2023-03-14 23:57:23,188 :INFO: test_recipe_info_fields :Screenshot of recipe info page taken.
+2023-03-14 23:57:23,188 :INFO: test_recipe_info_fields :Screenshot of recipe info page taken.
+2023-03-14 23:57:23,199 :INFO: test_recipe_info_fields :Description field successfully displayed.
+2023-03-14 23:57:23,199 :INFO: test_recipe_info_fields :Description field successfully displayed.
+2023-03-14 23:57:23,199 :INFO: test_recipe_info_fields :Ingredients field successfully displayed.
+2023-03-14 23:57:23,199 :INFO: test_recipe_info_fields :Ingredients field successfully displayed.
+2023-03-14 23:57:23,199 :INFO: test_recipe_info_fields :Instructions field successfully displayed.
+2023-03-14 23:57:23,199 :INFO: test_recipe_info_fields :Instructions field successfully displayed.
+2023-03-14 23:57:23,199 :INFO: test_recipe_info_fields :Publisher field successfully displayed.
+2023-03-14 23:57:23,199 :INFO: test_recipe_info_fields :Publisher field successfully displayed.
+2023-03-14 23:57:23,199 :INFO: test_recipe_info_fields :Date field successfully displayed.
+2023-03-14 23:57:23,199 :INFO: test_recipe_info_fields :Date field successfully displayed.
+2023-03-14 23:57:42,736 :INFO: test_recipe_search_existing :Recipe search works when searching for an existing recipe
+2023-03-14 23:57:42,736 :INFO: test_recipe_search_existing :Recipe search works when searching for an existing recipe

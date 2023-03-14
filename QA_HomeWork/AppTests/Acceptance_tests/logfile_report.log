@@ -1,0 +1,51 @@
+2023-03-14 21:44:46,148 :INFO: test_image_match :The pictures displayed in home and info page match.
+2023-03-14 21:44:56,002 :INFO: test_image_match :The pictures displayed in home and info page match.
+2023-03-14 21:44:56,002 :INFO: test_image_match :The pictures displayed in home and info page match.
+2023-03-14 21:48:45,832 :INFO: test_web :HomePageName: apple pie, HomePagePublisher: James Schend,
+2023-03-14 21:48:46,820 :INFO: test_web :InfoName: apple pie, InfoPulisher: James Schend,
+2023-03-14 21:48:46,820 :INFO: test_web :recipe names match!!
+2023-03-14 21:48:46,821 :INFO: test_web :publisher names match!!
+2023-03-14 21:48:58,044 :INFO: test_web :HomePageName: apple pie, HomePagePublisher: James Schend,
+2023-03-14 21:48:58,044 :INFO: test_web :HomePageName: apple pie, HomePagePublisher: James Schend,
+2023-03-14 21:48:58,957 :INFO: test_web :InfoName: apple pie, InfoPulisher: James Schend,
+2023-03-14 21:48:58,957 :INFO: test_web :InfoName: apple pie, InfoPulisher: James Schend,
+2023-03-14 21:48:58,957 :INFO: test_web :recipe names match!!
+2023-03-14 21:48:58,957 :INFO: test_web :recipe names match!!
+2023-03-14 21:48:58,957 :INFO: test_web :publisher names match!!
+2023-03-14 21:48:58,957 :INFO: test_web :publisher names match!!
+2023-03-14 21:53:34,529 :INFO: test_recipe_info_fields :Screenshot of recipe info page taken.
+2023-03-14 21:53:34,530 :INFO: test_recipe_info_fields :Description field successfully displayed.
+2023-03-14 21:53:34,530 :INFO: test_recipe_info_fields :Ingredients field successfully displayed.
+2023-03-14 21:53:34,530 :INFO: test_recipe_info_fields :Instructions field successfully displayed.
+2023-03-14 21:53:34,531 :INFO: test_recipe_info_fields :Publisher field successfully displayed.
+2023-03-14 21:53:34,531 :INFO: test_recipe_info_fields :Date field successfully displayed.
+2023-03-14 21:53:45,888 :INFO: test_recipe_info_fields :Screenshot of recipe info page taken.
+2023-03-14 21:53:45,888 :INFO: test_recipe_info_fields :Screenshot of recipe info page taken.
+2023-03-14 21:53:45,888 :INFO: test_recipe_info_fields :Description field successfully displayed.
+2023-03-14 21:53:45,888 :INFO: test_recipe_info_fields :Description field successfully displayed.
+2023-03-14 21:53:45,888 :INFO: test_recipe_info_fields :Ingredients field successfully displayed.
+2023-03-14 21:53:45,888 :INFO: test_recipe_info_fields :Ingredients field successfully displayed.
+2023-03-14 21:53:45,888 :INFO: test_recipe_info_fields :Instructions field successfully displayed.
+2023-03-14 21:53:45,888 :INFO: test_recipe_info_fields :Instructions field successfully displayed.
+2023-03-14 21:53:45,888 :INFO: test_recipe_info_fields :Publisher field successfully displayed.
+2023-03-14 21:53:45,888 :INFO: test_recipe_info_fields :Publisher field successfully displayed.
+2023-03-14 21:53:45,889 :INFO: test_recipe_info_fields :Date field successfully displayed.
+2023-03-14 21:53:45,889 :INFO: test_recipe_info_fields :Date field successfully displayed.
+2023-03-14 22:28:28,734 :INFO: test_add_name :Number of names before adding new name: 143
+2023-03-14 22:28:31,880 :INFO: test_add_name :Entered name
+2023-03-14 22:28:35,666 :INFO: test_add_name :Clicked submit button
+2023-03-14 22:28:39,065 :INFO: test_add_name :Number of names after adding new name: 144
+2023-03-14 22:28:45,815 :INFO: test_add_name :Number of names before adding new name: 144
+2023-03-14 22:28:45,815 :INFO: test_add_name :Number of names before adding new name: 144
+2023-03-14 22:28:49,186 :INFO: test_add_name :Entered name
+2023-03-14 22:28:49,186 :INFO: test_add_name :Entered name
+2023-03-14 22:28:52,845 :INFO: test_add_name :Clicked submit button
+2023-03-14 22:28:52,845 :INFO: test_add_name :Clicked submit button
+2023-03-14 22:28:56,261 :INFO: test_add_name :Number of names after adding new name: 145
+2023-03-14 22:28:56,261 :INFO: test_add_name :Number of names after adding new name: 145
+2023-03-14 22:34:18,413 :INFO: test_recipe_search_existing :Recipe search works when searching for an existing recipe
+2023-03-14 22:34:33,538 :INFO: test_recipe_search_existing :Recipe search works when searching for an existing recipe
+2023-03-14 22:34:33,538 :INFO: test_recipe_search_existing :Recipe search works when searching for an existing recipe
+2023-03-14 22:41:43,559 :INFO: test_recipe_search_existing :Recipe search works when searching for an existing recipe
+2023-03-14 22:41:58,551 :INFO: test_recipe_search_existing :Recipe search works when searching for an existing recipe
+2023-03-14 22:41:58,551 :INFO: test_recipe_search_existing :Recipe search works when searching for an existing recipe

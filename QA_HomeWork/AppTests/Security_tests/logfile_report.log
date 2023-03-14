@@ -1,0 +1,167 @@
+2023-03-14 22:45:38,870 :INFO: test_delete_recipe :Accessing the website...
+2023-03-14 22:45:38,871 :INFO: test_delete_recipe :Getting the number of recipes before deletion...
+2023-03-14 22:45:38,903 :INFO: test_delete_recipe :Number of recipes before deletion: 25
+2023-03-14 22:45:38,903 :INFO: test_delete_recipe :Clicking on the recipe name...
+2023-03-14 22:45:39,519 :INFO: test_delete_recipe :Clicking on the delete button...
+2023-03-14 22:45:40,319 :INFO: test_delete_recipe :Getting the number of recipes after deletion...
+2023-03-14 22:45:40,338 :INFO: test_delete_recipe :Number of recipes after deletion: 24
+2023-03-14 22:45:40,338 :INFO: test_delete_recipe :Asserting that the number of recipes has decreased...
+2023-03-14 22:45:40,339 :INFO: test_delete_recipe :Recipe deleted
+2023-03-14 22:45:50,306 :INFO: test_delete_recipe :Accessing the website...
+2023-03-14 22:45:50,306 :INFO: test_delete_recipe :Accessing the website...
+2023-03-14 22:45:50,306 :INFO: test_delete_recipe :Getting the number of recipes before deletion...
+2023-03-14 22:45:50,306 :INFO: test_delete_recipe :Getting the number of recipes before deletion...
+2023-03-14 22:45:50,339 :INFO: test_delete_recipe :Number of recipes before deletion: 24
+2023-03-14 22:45:50,339 :INFO: test_delete_recipe :Number of recipes before deletion: 24
+2023-03-14 22:45:50,340 :INFO: test_delete_recipe :Clicking on the recipe name...
+2023-03-14 22:45:50,340 :INFO: test_delete_recipe :Clicking on the recipe name...
+2023-03-14 22:45:50,625 :INFO: test_delete_recipe :Clicking on the delete button...
+2023-03-14 22:45:50,625 :INFO: test_delete_recipe :Clicking on the delete button...
+2023-03-14 22:45:51,187 :INFO: test_delete_recipe :Getting the number of recipes after deletion...
+2023-03-14 22:45:51,187 :INFO: test_delete_recipe :Getting the number of recipes after deletion...
+2023-03-14 22:45:51,207 :INFO: test_delete_recipe :Number of recipes after deletion: 23
+2023-03-14 22:45:51,207 :INFO: test_delete_recipe :Number of recipes after deletion: 23
+2023-03-14 22:45:51,208 :INFO: test_delete_recipe :Asserting that the number of recipes has decreased...
+2023-03-14 22:45:51,208 :INFO: test_delete_recipe :Asserting that the number of recipes has decreased...
+2023-03-14 22:45:51,209 :INFO: test_delete_recipe :Recipe deleted
+2023-03-14 22:45:51,209 :INFO: test_delete_recipe :Recipe deleted
+2023-03-14 22:51:11,117 :INFO: test_add_recipe_file :Getting number of recipes before adding file
+2023-03-14 22:51:11,159 :INFO: test_add_recipe_file :Number of recipes before adding file: 23
+2023-03-14 22:51:14,161 :INFO: test_add_recipe_file :Clicking on 'Add Recipe' button
+2023-03-14 22:51:17,508 :INFO: test_add_recipe_file :Filling out recipe form
+2023-03-14 22:51:26,756 :INFO: test_add_recipe_file :Getting number of recipes after adding file
+2023-03-14 22:51:31,822 :INFO: test_add_recipe_file :Number of recipes after adding file: 0
+2023-03-14 22:51:40,788 :INFO: test_add_recipe_file :Getting number of recipes before adding file
+2023-03-14 22:51:40,788 :INFO: test_add_recipe_file :Getting number of recipes before adding file
+2023-03-14 22:51:40,887 :INFO: test_add_recipe_file :Number of recipes before adding file: 23
+2023-03-14 22:51:40,887 :INFO: test_add_recipe_file :Number of recipes before adding file: 23
+2023-03-14 22:51:43,889 :INFO: test_add_recipe_file :Clicking on 'Add Recipe' button
+2023-03-14 22:51:43,889 :INFO: test_add_recipe_file :Clicking on 'Add Recipe' button
+2023-03-14 22:51:47,173 :INFO: test_add_recipe_file :Filling out recipe form
+2023-03-14 22:51:47,173 :INFO: test_add_recipe_file :Filling out recipe form
+2023-03-14 22:51:55,135 :INFO: test_add_recipe_file :Getting number of recipes after adding file
+2023-03-14 22:51:55,135 :INFO: test_add_recipe_file :Getting number of recipes after adding file
+2023-03-14 22:52:00,210 :INFO: test_add_recipe_file :Number of recipes after adding file: 0
+2023-03-14 22:52:00,210 :INFO: test_add_recipe_file :Number of recipes after adding file: 0
+2023-03-14 22:55:36,430 :INFO: test_add_recipe_file :Getting number of recipes before adding file
+2023-03-14 22:55:36,491 :INFO: test_add_recipe_file :Number of recipes before adding file: 23
+2023-03-14 22:55:39,492 :INFO: test_add_recipe_file :Clicking on 'Add Recipe' button
+2023-03-14 22:55:43,030 :INFO: test_add_recipe_file :Filling out recipe form
+2023-03-14 22:55:51,984 :INFO: test_add_recipe_file :Getting number of recipes after adding file
+2023-03-14 22:56:07,141 :INFO: test_add_recipe_file :Getting number of recipes before adding file
+2023-03-14 22:56:07,141 :INFO: test_add_recipe_file :Getting number of recipes before adding file
+2023-03-14 22:56:07,202 :INFO: test_add_recipe_file :Number of recipes before adding file: 23
+2023-03-14 22:56:07,202 :INFO: test_add_recipe_file :Number of recipes before adding file: 23
+2023-03-14 22:56:10,204 :INFO: test_add_recipe_file :Clicking on 'Add Recipe' button
+2023-03-14 22:56:10,204 :INFO: test_add_recipe_file :Clicking on 'Add Recipe' button
+2023-03-14 22:56:13,481 :INFO: test_add_recipe_file :Filling out recipe form
+2023-03-14 22:56:13,481 :INFO: test_add_recipe_file :Filling out recipe form
+2023-03-14 22:56:22,549 :INFO: test_add_recipe_file :Getting number of recipes after adding file
+2023-03-14 22:56:22,549 :INFO: test_add_recipe_file :Getting number of recipes after adding file
+2023-03-14 22:56:32,843 :INFO: test_add_recipe_file :Number of recipes after adding file: 0
+2023-03-14 22:56:32,843 :INFO: test_add_recipe_file :Number of recipes after adding file: 0
+2023-03-14 22:59:46,727 :INFO: test_add_recipe_file :Getting number of recipes before adding file
+2023-03-14 22:59:46,806 :INFO: test_add_recipe_file :Number of recipes before adding file: 23
+2023-03-14 22:59:49,819 :INFO: test_add_recipe_file :Clicking on 'Add Recipe' button
+2023-03-14 22:59:53,549 :INFO: test_add_recipe_file :Filling out recipe form
+2023-03-14 23:00:00,993 :INFO: test_add_recipe_file :Getting number of recipes after adding file
+2023-03-14 23:00:04,265 :INFO: test_add_recipe_file :Number of recipes after adding file: 23
+2023-03-14 23:00:09,161 :INFO: test_add_recipe_file :Getting number of recipes before adding file
+2023-03-14 23:00:09,161 :INFO: test_add_recipe_file :Getting number of recipes before adding file
+2023-03-14 23:00:09,192 :INFO: test_add_recipe_file :Number of recipes before adding file: 23
+2023-03-14 23:00:09,192 :INFO: test_add_recipe_file :Number of recipes before adding file: 23
+2023-03-14 23:00:12,197 :INFO: test_add_recipe_file :Clicking on 'Add Recipe' button
+2023-03-14 23:00:12,197 :INFO: test_add_recipe_file :Clicking on 'Add Recipe' button
+2023-03-14 23:00:15,370 :INFO: test_add_recipe_file :Filling out recipe form
+2023-03-14 23:00:15,370 :INFO: test_add_recipe_file :Filling out recipe form
+2023-03-14 23:00:22,388 :INFO: test_add_recipe_file :Getting number of recipes after adding file
+2023-03-14 23:00:22,388 :INFO: test_add_recipe_file :Getting number of recipes after adding file
+2023-03-14 23:00:25,573 :INFO: test_add_recipe_file :Number of recipes after adding file: 23
+2023-03-14 23:00:25,573 :INFO: test_add_recipe_file :Number of recipes after adding file: 23
+2023-03-14 23:00:47,821 :INFO: test_add_recipe_file :Getting number of recipes before adding file
+2023-03-14 23:00:47,841 :INFO: test_add_recipe_file :Number of recipes before adding file: 23
+2023-03-14 23:00:50,842 :INFO: test_add_recipe_file :Clicking on 'Add Recipe' button
+2023-03-14 23:00:53,973 :INFO: test_add_recipe_file :Filling out recipe form
+2023-03-14 23:01:00,806 :INFO: test_add_recipe_file :Getting number of recipes after adding file
+2023-03-14 23:01:09,103 :INFO: test_add_recipe_file :Number of recipes after adding file: 23
+2023-03-14 23:01:13,763 :INFO: test_add_recipe_file :Getting number of recipes before adding file
+2023-03-14 23:01:13,763 :INFO: test_add_recipe_file :Getting number of recipes before adding file
+2023-03-14 23:01:13,788 :INFO: test_add_recipe_file :Number of recipes before adding file: 23
+2023-03-14 23:01:13,788 :INFO: test_add_recipe_file :Number of recipes before adding file: 23
+2023-03-14 23:01:16,792 :INFO: test_add_recipe_file :Clicking on 'Add Recipe' button
+2023-03-14 23:01:16,792 :INFO: test_add_recipe_file :Clicking on 'Add Recipe' button
+2023-03-14 23:01:19,965 :INFO: test_add_recipe_file :Filling out recipe form
+2023-03-14 23:01:19,965 :INFO: test_add_recipe_file :Filling out recipe form
+2023-03-14 23:01:27,064 :INFO: test_add_recipe_file :Getting number of recipes after adding file
+2023-03-14 23:01:27,064 :INFO: test_add_recipe_file :Getting number of recipes after adding file
+2023-03-14 23:01:35,224 :INFO: test_add_recipe_file :Number of recipes after adding file: 23
+2023-03-14 23:01:35,224 :INFO: test_add_recipe_file :Number of recipes after adding file: 23
+2023-03-14 23:02:05,236 :INFO: test_add_recipe_file :Getting number of recipes before adding file
+2023-03-14 23:02:05,254 :INFO: test_add_recipe_file :Number of recipes before adding file: 23
+2023-03-14 23:02:08,255 :INFO: test_add_recipe_file :Clicking on 'Add Recipe' button
+2023-03-14 23:02:11,411 :INFO: test_add_recipe_file :Filling out recipe form
+2023-03-14 23:02:18,169 :INFO: test_add_recipe_file :Getting number of recipes after adding file
+2023-03-14 23:02:26,502 :INFO: test_add_recipe_file :Number of recipes after adding file: 23
+2023-03-14 23:02:26,502 :INFO: test_add_recipe_file :File was added
+2023-03-14 23:02:35,465 :INFO: test_add_recipe_file :Getting number of recipes before adding file
+2023-03-14 23:02:35,465 :INFO: test_add_recipe_file :Getting number of recipes before adding file
+2023-03-14 23:02:35,490 :INFO: test_add_recipe_file :Number of recipes before adding file: 23
+2023-03-14 23:02:35,490 :INFO: test_add_recipe_file :Number of recipes before adding file: 23
+2023-03-14 23:02:38,491 :INFO: test_add_recipe_file :Clicking on 'Add Recipe' button
+2023-03-14 23:02:38,491 :INFO: test_add_recipe_file :Clicking on 'Add Recipe' button
+2023-03-14 23:02:41,669 :INFO: test_add_recipe_file :Filling out recipe form
+2023-03-14 23:02:41,669 :INFO: test_add_recipe_file :Filling out recipe form
+2023-03-14 23:02:48,740 :INFO: test_add_recipe_file :Getting number of recipes after adding file
+2023-03-14 23:02:48,740 :INFO: test_add_recipe_file :Getting number of recipes after adding file
+2023-03-14 23:02:56,923 :INFO: test_add_recipe_file :Number of recipes after adding file: 23
+2023-03-14 23:02:56,923 :INFO: test_add_recipe_file :Number of recipes after adding file: 23
+2023-03-14 23:02:56,923 :INFO: test_add_recipe_file :File was added
+2023-03-14 23:02:56,923 :INFO: test_add_recipe_file :File was added
+2023-03-14 23:07:00,643 :INFO: test_add_review :Number of reviews before adding new review: 0
+2023-03-14 23:07:03,731 :INFO: test_add_review :Entered review text
+2023-03-14 23:07:06,778 :INFO: test_add_review :Clicked submit button
+2023-03-14 23:07:14,829 :INFO: test_add_review :review was not added
+2023-03-14 23:07:46,016 :INFO: test_add_review :Number of reviews before adding new review: 0
+2023-03-14 23:07:46,016 :INFO: test_add_review :Number of reviews before adding new review: 0
+2023-03-14 23:07:49,158 :INFO: test_add_review :Entered review text
+2023-03-14 23:07:49,158 :INFO: test_add_review :Entered review text
+2023-03-14 23:07:52,232 :INFO: test_add_review :Clicked submit button
+2023-03-14 23:07:52,232 :INFO: test_add_review :Clicked submit button
+2023-03-14 23:08:00,253 :INFO: test_add_review :review was not added
+2023-03-14 23:08:00,253 :INFO: test_add_review :review was not added
+2023-03-14 23:08:30,538 :INFO: test_search_non_existing_recipe :Navigated to the homepage
+2023-03-14 23:08:43,303 :INFO: test_search_non_existing_recipe :Navigated to the homepage
+2023-03-14 23:08:43,303 :INFO: test_search_non_existing_recipe :Navigated to the homepage
+2023-03-14 23:13:59,992 :INFO: test_search_number :Starting test_search_number
+2023-03-14 23:14:03,746 :INFO: test_search_number :Stayed in Homepage when searching for number
+2023-03-14 23:14:12,769 :INFO: test_search_number :Starting test_search_number
+2023-03-14 23:14:12,769 :INFO: test_search_number :Starting test_search_number
+2023-03-14 23:14:16,824 :INFO: test_search_number :Stayed in Homepage when searching for number
+2023-03-14 23:14:16,824 :INFO: test_search_number :Stayed in Homepage when searching for number
+2023-03-14 23:56:12,567 :INFO: test_delete_recipe :Accessing the website...
+2023-03-14 23:56:12,567 :INFO: test_delete_recipe :Getting the number of recipes before deletion...
+2023-03-14 23:56:12,584 :INFO: test_delete_recipe :Number of recipes before deletion: 23
+2023-03-14 23:56:12,584 :INFO: test_delete_recipe :Clicking on the recipe name...
+2023-03-14 23:56:12,708 :INFO: test_delete_recipe :Clicking on the delete button...
+2023-03-14 23:56:13,062 :INFO: test_delete_recipe :Getting the number of recipes after deletion...
+2023-03-14 23:56:13,078 :INFO: test_delete_recipe :Number of recipes after deletion: 22
+2023-03-14 23:56:13,079 :INFO: test_delete_recipe :Asserting that the number of recipes has decreased...
+2023-03-14 23:56:13,079 :INFO: test_delete_recipe :Recipe deleted
+2023-03-14 23:56:22,228 :INFO: test_delete_recipe :Accessing the website...
+2023-03-14 23:56:22,228 :INFO: test_delete_recipe :Accessing the website...
+2023-03-14 23:56:22,229 :INFO: test_delete_recipe :Getting the number of recipes before deletion...
+2023-03-14 23:56:22,229 :INFO: test_delete_recipe :Getting the number of recipes before deletion...
+2023-03-14 23:56:22,288 :INFO: test_delete_recipe :Number of recipes before deletion: 22
+2023-03-14 23:56:22,288 :INFO: test_delete_recipe :Number of recipes before deletion: 22
+2023-03-14 23:56:22,288 :INFO: test_delete_recipe :Clicking on the recipe name...
+2023-03-14 23:56:22,288 :INFO: test_delete_recipe :Clicking on the recipe name...
+2023-03-14 23:56:22,476 :INFO: test_delete_recipe :Clicking on the delete button...
+2023-03-14 23:56:22,476 :INFO: test_delete_recipe :Clicking on the delete button...
+2023-03-14 23:56:22,843 :INFO: test_delete_recipe :Getting the number of recipes after deletion...
+2023-03-14 23:56:22,843 :INFO: test_delete_recipe :Getting the number of recipes after deletion...
+2023-03-14 23:56:22,862 :INFO: test_delete_recipe :Number of recipes after deletion: 21
+2023-03-14 23:56:22,862 :INFO: test_delete_recipe :Number of recipes after deletion: 21
+2023-03-14 23:56:22,862 :INFO: test_delete_recipe :Asserting that the number of recipes has decreased...
+2023-03-14 23:56:22,862 :INFO: test_delete_recipe :Asserting that the number of recipes has decreased...
+2023-03-14 23:56:22,863 :INFO: test_delete_recipe :Recipe deleted
+2023-03-14 23:56:22,863 :INFO: test_delete_recipe :Recipe deleted
